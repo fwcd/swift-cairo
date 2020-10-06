@@ -14,9 +14,9 @@ let package = Package(
         .target(
             name: "Cairo",
             dependencies: [
-                "CCairo",
-                "CFontConfig",
-                "CFreeType"
+                "SwiftCairoCCairo",
+                "SwiftCairoCFontConfig",
+                "SwiftCairoCFreeType"
             ]
         ),
         .testTarget(
@@ -26,21 +26,21 @@ let package = Package(
             ]
         ),
         .systemLibrary(
-            name: "CCairo",
+            name: "SwiftCairoCCairo",
             pkgConfig: "cairo",
             providers: [
                 .brew(["cairo"]),
                 .apt(["libcairo2-dev"])
             ]),
         .systemLibrary(
-            name: "CFontConfig",
+            name: "SwiftCairoCFontConfig",
             pkgConfig: "fontconfig",
             providers: [
                 .brew(["fontconfig"]),
                 .apt(["libfontconfig-dev"])
             ]),
         .systemLibrary(
-            name: "CFreeType",
+            name: "SwiftCairoCFreeType",
             pkgConfig: "freetype",
             providers: [
                 .brew(["freetype2"]),

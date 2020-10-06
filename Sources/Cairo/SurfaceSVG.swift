@@ -6,7 +6,7 @@
 //
 //
 
-import CCairo
+import SwiftCairoCCairo
 
 public extension Surface {
     

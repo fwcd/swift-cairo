@@ -1,4 +1,4 @@
-module CFreeType [system] {
+module SwiftCairoCFreeType [system] {
     header "shim.h"
     link "freetype"
     export *

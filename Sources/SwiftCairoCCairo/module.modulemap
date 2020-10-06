@@ -1,4 +1,4 @@
-module CCairo [system] {
+module SwiftCairoCCairo [system] {
     header "shim.h"
     link "cairo"
     export *

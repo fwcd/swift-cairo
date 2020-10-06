@@ -6,8 +6,8 @@
 //  Copyright © 2016 PureSwift. All rights reserved.
 //
 
-import struct CCairo.cairo_format_t
-import func CCairo.cairo_format_stride_for_width
+import struct SwiftCairoCCairo.cairo_format_t
+import func SwiftCairoCCairo.cairo_format_stride_for_width
 
 /// Used to identify the memory format of image data.
 public enum ImageFormat: CInt {

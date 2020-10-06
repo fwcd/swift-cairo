@@ -6,7 +6,7 @@
 //  Copyright © 2016 PureSwift. All rights reserved.
 //
 
-import CCairo
+import SwiftCairoCCairo
 
 /// Represents a source when drawing onto a surface. 
 ///

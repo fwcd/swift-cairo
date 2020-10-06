@@ -1,4 +1,4 @@
-module CFontConfig [system] {
+module SwiftCairoCFontConfig [system] {
     header "shim.h"
     link "fontconfig"
     export *
