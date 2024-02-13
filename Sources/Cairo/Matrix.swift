@@ -6,7 +6,7 @@
 //  Copyright © 2016 PureSwift. All rights reserved.
 //
 
-import SCCCairo
+import CCairo
 
 public typealias Matrix = cairo_matrix_t
 

@@ -7,7 +7,7 @@
 //
 
 import struct Foundation.Data
-import SCCCairo
+import CCairo
 
 public extension Surface {
     

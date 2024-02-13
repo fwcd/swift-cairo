@@ -6,9 +6,9 @@
 //  Copyright © 2016 PureSwift. All rights reserved.
 //
 
-import SCCCairo
-import SCCFontConfig
-import SCCFreeType
+import CCairo
+import CFontConfig
+import CFreeType
 
 public final class ScaledFont {
     

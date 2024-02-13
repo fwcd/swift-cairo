@@ -6,7 +6,7 @@
 //  Copyright © 2016 PureSwift. All rights reserved.
 //
 
-import struct SCCCairo.cairo_content_t
+import struct CCairo.cairo_content_t
 
 /// Used to describe the content that a surface will contain, whether color information, 
 /// alpha information (translucence vs. opacity), or both.

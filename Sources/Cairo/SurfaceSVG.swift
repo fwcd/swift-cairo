@@ -6,7 +6,7 @@
 //
 //
 
-import SCCCairo
+import CCairo
 
 public extension Surface {
     

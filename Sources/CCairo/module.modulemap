@@ -1,4 +1,4 @@
-module SCCCairo [system] {
+module CCairo [system] {
     header "shim.h"
     link "cairo"
     export *
